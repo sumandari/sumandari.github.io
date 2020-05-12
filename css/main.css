@@ -95,3 +95,61 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+/* about */
+.about p {
+  font-size: 1.5em;
+  color: #500000;
+  margin-bottom: 0.5em;
+  margin-top: 1em;
+}
+
+.about ul {
+  margin: 1em 0em 1em 3em;
+  padding: 1em 2em;
+  border-radius: 10px;
+  background-color: #e18888;
+}
+
+.about ul li {
+  list-style-type:none;
+  font-size: 1.15em;
+  color: #333;
+  margin: 10px 0px;
+}
+
+.about a {
+  color: black;
+}
+
+.about a:hover {
+  color: white;
+}
+
+.fade-in {
+  max-height: 300px;
+  -webkit-animation: expand 0.8s;
+}
+
+@-webkit-keyframes expand{
+    0% {
+      opacity:0;
+      height: 0;
+    }
+    25% {
+      opacity:0.25;
+      height: 500px;
+    }
+    50% {
+      opacity:0.5;
+      height: auto;
+    }
+    75% {
+      opacity:0.75;
+      height: auto;
+    }
+    100%{
+      opacity: 1;
+      height: auto;
+    }
+}
