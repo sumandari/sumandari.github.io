@@ -128,7 +128,7 @@ ul.posts li {
 }
 
 .fade-in {
-  max-height: 300px;
+  max-height: 600px;
   -webkit-animation: expand 0.8s;
 }
 
