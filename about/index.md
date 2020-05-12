@@ -16,7 +16,7 @@ title: sumandari's page
     <div class="fade-in">
         <ul>
             <li>
-                If you are Indonesian, you know that the electricity for our nation is provided only by PT PLN. I'm proud to be one of them once. I served my country in the maintenance team of <a href="https://www.indonesiapower.co.id"><strong>PT. Indonesia Power</strong></a>, a subsidiary of PLN, as an electrical technician. Performed preventive and corrective maintenance of a variety of assets, equipment, and electrical machinery to ensure power supply meet the demands.
+                If you are Indonesian, you know that the electricity for our nation is provided only by PT PLN. I have been proud to be one of them once. I served my country in the maintenance team of <a href="https://www.indonesiapower.co.id"><strong>PT. Indonesia Power</strong></a>, a subsidiary of PLN, as an electrical technician. Performed preventive and corrective maintenance of a variety of assets, equipment, and electrical machinery to ensure power supply meet the demands.
             </li>
             <li>
                 Working as frontliner gave me a solid foundation when my role changed into Procurement officer. It helped me to perform due diligent analysis to ensure that the contracts and negotiations I made for Organization had value for money. And it's part of Supply Chain Management strategy to quickly deliver products to end-users with reduced expenses.
