@@ -35,7 +35,7 @@ title: sumandari's page
     <div class="fade-in">
         <ul>
             <li>
-                My very first professional job was production technician in <a href="https://www.sampoerna.com/sampoerna/en/overview"><strong>PT HM Sampoerna Tbk</strong></a>. I operated cigarette maker and filter maker machine. At that time, I learned how to work in the manufacturing industry which has its machine running 24hours, eight hours based, teams spend a week on each, with a night, afternoon, morning progression over the weekly cycle.
+                My very first professional job was production technician in <a href="https://www.sampoerna.com/sampoerna/en/overview"><strong>PT HM Sampoerna Tbk</strong></a>. I operated cigarette maker and filter maker machine. At that time, I learned how to work in the manufacturing industry which has its machine running 24hours, eight hours based, teams spend a week on each, with a night, afternoon, morning progression over the weekly cycle. And it's my very first time to see how mechanical counters works as well as electronics counter did. Mechatronics is cool!
             </li>
         </ul>
     </div>
