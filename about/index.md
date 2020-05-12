@@ -12,6 +12,11 @@ title: sumandari's page
             </li>
         </ul>
     </div>
+</div>
+
+# I was...
+
+<div class="about">
     <p>A frontliner and an officer in Power Plant</p>
     <div class="fade-in">
         <ul>
