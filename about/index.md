@@ -8,7 +8,7 @@ title: sumandari's page
     <div class="fade-in">
         <ul>
             <li>
-                After sending my kids to their school, I write codes, mostly in Python. Then preparing a meal for the whole family and do my codes again. For bonus: I'm a Certified Associate in Python Programming <a href="https://www.youracclaim.com/badges/28176065-28d3-45a1-a660-80cc6e5eac24"><strong>PCAP-32-02</strong></a>
+                After sending my kids to their school, I write codes, mostly in Python. Then prepare meals for the whole family and do my codes again. For bonus: I'm a Certified Associate in Python Programming <a href="https://www.youracclaim.com/badges/28176065-28d3-45a1-a660-80cc6e5eac24"><strong>PCAP-32-02</strong></a>
             </li>
         </ul>
     </div>
@@ -27,7 +27,7 @@ title: sumandari's page
     <div class="fade-in">
         <ul>
             <li>
-                Have you ever flown with <a href="http://www.lionair.co.id"><strong>Lionair</strong></a>? Back years ago, I was one of many who did engineering tasks to comply with company safety policy, ATA standards, and regulations, especialy in electrical and avionics issues.
+                Have you ever flown with <a href="http://www.lionair.co.id"><strong>Lionair</strong></a>? Back years ago, I was one of many who did engineering tasks to comply with company safety policy, ATA standards, and regulations, especialy in electrical and avionics issues. Having an education in Electrical Engineering helped me managing my self to jump into aviation industry. Every analysis should be made very carefully and well organized to meet its safety goal.
             </li>
         </ul>
     </div>

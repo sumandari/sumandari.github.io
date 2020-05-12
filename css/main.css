@@ -48,11 +48,12 @@ a {
 
 nav ul li a:hover {
   text-decoration: none;
-  border-bottom: 5px solid #f1d1d1;
+  /*border-bottom: 5px solid #f1d1d1;*/
 }
 
 a.current{
   color: #f1d1d1;
+  border-bottom: 5px solid #f1d1d1;
 }
 
 a:hover {
