@@ -81,6 +81,7 @@ a:hover {
 .container {
     width: 90%;
     margin: 0 auto;
+    line-height: 1.6;
 }
 
 
@@ -95,9 +96,5 @@ a:hover {
   color: #aa0000;
   text-align: center;
 
-}
-
-.post li {
-    margin: 10px 0;
 }
 
