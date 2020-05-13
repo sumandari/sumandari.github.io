@@ -1,12 +1,23 @@
 ---
 layout: default
-title: read the journey..
+title: read her thought
 ---
 
-<h1>{{ page.title  }}</h1>
-<ul class="posts">
-    {% for post in site.posts %}
-        <li><span>{{ post.date | date_to_string }}</span> >> <a href="{{ post.url }}" title="{{ psot.title  }}">{{ post.title }}</a>
-       </li>
-    {% endfor %}
-</ul>
+{% for post in site.posts limit:10 %}
+    <div class="post-preview">
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <div class="post-date">{{ post.date | date: "%B %d, %Y" }}</div>
+       
+        <p class="post-excerpt">
+
+        {% if post.content contains '<!--excerpt.start-->' and post.content contains '<!--excerpt.end-->' %}
+            {{ ((post.content | split:'<!--excerpt.start-->' | last) | split: '<!--excerpt.end-->' | first) | strip_html | truncatewords: 150 }}
+        {% else %}
+            {{ post.content | strip_html | truncatewords: 150 }}
+        {% endif %}
+
+        </p>
+
+    </div>
+ 
+{% endfor %}

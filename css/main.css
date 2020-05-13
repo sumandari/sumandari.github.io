@@ -58,7 +58,7 @@ a.current{
 
 a:hover {
   text-decoration: underline;
-  color: #dddddd;
+  color: #aa0000;
 }
 
 .nav-icon a:hover {
@@ -154,3 +154,60 @@ ul.posts li {
       height: auto;
     }
 }
+
+/* blog index */
+.post-preview {
+  margin: 0em 1em 2em 0em;
+  padding: 0.5em 2em;
+  border-radius: 10px;
+  background-color: #e18888;
+}
+
+.post-preview h2 {
+  margin-bottom: 2px;
+}
+
+.post-preview a {
+  color: white;
+}
+
+.post-preview a:hover {
+  color: #aa0000;
+  text-decoration: none;
+}
+
+.post-date {
+  margin-top: 0px;
+  color: #555;
+  font-size: 0.8em;
+
+}
+
+.post-excerpt {
+  color: #333;
+}
+
+/* blog content */
+
+.post {
+  color: #333;
+}
+
+.post h1 {
+  color: #aa0000;
+  margin-bottom: 2px;
+}
+
+.post a {
+  color: #fff;
+}
+
+.post a:hover {
+  color: #aa0000;
+}
+
+.blog-content {
+  background-color: black;
+  color: white;
+}
+
