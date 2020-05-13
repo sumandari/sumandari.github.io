@@ -8,7 +8,14 @@ title: sumandari's page
     <div class="fade-in">
         <ul>
             <li>
-                After sending my kids to their school, I write codes, mostly in Python. Then prepare meals for the whole family and do my codes again. For bonus: I'm a Certified Associate in Python Programming <a href="https://www.youracclaim.com/badges/28176065-28d3-45a1-a660-80cc6e5eac24"><strong>PCAP-32-02</strong></a>
+                After sending my kids to their school, I write codes, mostly in Python. Then prepare meals for the whole family and do my codes again. 
+            </li>
+            <li>
+                I was teaching my self and thanks to lots of free online courses out there, so then I could afford Certified Associate in Python Programming <a href="https://www.youracclaim.com/badges/28176065-28d3-45a1-a660-80cc6e5eac24"><strong>PCAP-32-02</strong></a>
+            </li>
+            <li>
+                <em>I work with: Python (Flask, Django, Plotly), JavaScript (native, Jquery), Bootstrap, MySQL, Postgre, SQLite, MongoDB.
+                Type of app:  ERP (business process), GIS, Networking (devNet).</em>
             </li>
         </ul>
     </div>
