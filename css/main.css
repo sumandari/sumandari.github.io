@@ -77,7 +77,7 @@ a:hover {
   padding: 2px 10px;
 }
 
-/* blurp */
+/* home */
 .home h1 {
   font-size: 3em;
 }
@@ -115,6 +115,7 @@ ul.posts li {
 .about ul li {
   list-style-type:none;
   font-size: 1.15em;
+  line-height: 1.2;
   color: #333;
   margin: 10px 0px;
 }
@@ -156,25 +157,22 @@ ul.posts li {
 }
 
 /* blog index */
-.post-preview {
-  margin: 0em 1em 2em 0em;
+.post-preview, .project-preview {
+  margin: 0em 0em 2em 0em;
   padding: 0.5em 2em;
   border-radius: 10px;
   background-color: #e18888;
+  line-height: 1.2;
 }
 
+.post-preview:hover {
+    background-color: #a55;
+    cursor: pointer;
+}
 .post-preview h2 {
   margin-bottom: 2px;
 }
 
-.post-preview a {
-  color: white;
-}
-
-.post-preview a:hover {
-  color: #aa0000;
-  text-decoration: none;
-}
 
 .post-date {
   margin-top: 0px;
@@ -183,31 +181,41 @@ ul.posts li {
 
 }
 
-.post-excerpt {
+.post-excerpt, .project-preview p {
   color: #333;
 }
 
-/* blog content */
-
-.post {
-  color: #333;
+/* project */
+.img-project {
+    float: left;
+    width: 290px;
+    height: 200px;
+    margin: 1em 2em 1em 0em;
+    border-radius: 10px;
+    object-fit: cover;
+    
 }
 
-.post h1 {
-  color: #aa0000;
-  margin-bottom: 2px;
+.no-pic {
+    background-color: #e19999;
+    text-align: center;
 }
 
-.post a {
-  color: #fff;
+.iframe-project {
+    float: left;
+    margin: 1em 2em 1em 0em;
 }
 
-.post a:hover {
-  color: #aa0000;
+iframe {
+    border: 1px solid #333;
+    border-radius: 10px;
 }
 
-.blog-content {
-  background-color: black;
-  color: white;
+.clearfix {
+    overflow: auto;
+}
+
+.title-project {
+  color: #a22;;
 }
 
