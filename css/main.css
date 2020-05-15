@@ -100,38 +100,21 @@ a:hover {
 .home img {
     width: 200px;
     position:absolute;
-    left: 0%;
+    left: 80%;
     top: 50%;
-    -webkit-animation: normal;
-    -webkit-animation-name: run;
-    -webkit-animation-duration: 10s;
+    transform: scaleX(-1);
+    -webkit-animation: run 15s 1;
+    -webkit-animation-direction: forwards;
 
 }     
 @-webkit-keyframes run {
-    0% { left: 80%; top: 0%;}
-    20% { left: 80%; top: 50%;}
-    30% { left: 75%; top: 50%;}
-    100%{ left: 0%; top: 50%;}
-}
-
-.home.move {
-  width: 100%;
-  height: 1.2em;
-  position: relative;
-  animation: catpath 10s 2;
-  animation-direction: alternate;
-}
-.home.stay {
-  overflow: hidden;
-  width:80%; 
-  margin-left: 10%
-}
-
-@keyframes catpath {
-  0%   {left: 100%; top: 50%;}
-  20% { left: 80%; top: 50%;}
-  30% { left: 75%; top: 50%;}
-  100% {left: 0%; top: 50%;}
+    0% { left: 80%; top: -10%; transform: scaleX(1); }
+    10% { left: 80%; top: 50%; transform: scaleX(1); }
+    45% { left: 0%; top: 50%; transform: scaleX(1);}
+    50% { left: -10%; top: 50%; transform: scaleX(1); }
+    52% { left: -10%; top: 50%; transform: scaleX(-1);}
+    60% { left: 0%; top: 50%; transform: scaleX(-1);}
+    100%{ left: 80%; top: 50%; transform: scaleX(-1);}
 }
 
 ul.posts { 
