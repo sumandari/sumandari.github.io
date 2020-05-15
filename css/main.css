@@ -101,7 +101,7 @@ a:hover {
     width: 200px;
     position:absolute;
     left: 0%;
-    top: 75%;
+    top: 50%;
     -webkit-animation: normal;
     -webkit-animation-name: run;
     -webkit-animation-duration: 10s;
@@ -109,9 +109,9 @@ a:hover {
 }     
 @-webkit-keyframes run {
     0% { left: 80%; top: 0%;}
-    20% { left: 80%; top: 75%;}
-    30% { left: 75%; top: 75%;}
-    100%{ left: 0%; top: 75%;}
+    20% { left: 80%; top: 50%;}
+    30% { left: 75%; top: 50%;}
+    100%{ left: 0%; top: 50%;}
 }
 
 ul.posts { 
