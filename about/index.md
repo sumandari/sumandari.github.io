@@ -14,7 +14,7 @@ title: who is sumandari?
                 10 years of work experience in different industries gave me more sight about what I want to develop in the future. Started in 2018 I was teaching my self and thanks to lots of free online courses out there, so then I could afford Certified Associate in Python Programming <a href="https://www.youracclaim.com/badges/28176065-28d3-45a1-a660-80cc6e5eac24"><strong>PCAP-32-02</strong></a>
             </li>
             <li>
-                <em>I work with: Python (Flask, Django, Plotly), JavaScript (native, Jquery), Bootstrap, MySQL, Postgre, SQLite, MongoDB.
+                <em>I work with: Python (Flask, Django), JavaScript (native, Jquery), Bootstrap, MySQL, Postgre, SQLite, MongoDB.
                 Type of app:  ERP (business process), GIS, Networking (devNet).</em>
             </li>
         </ul>
