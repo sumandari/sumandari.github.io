@@ -67,6 +67,16 @@ a:hover {
   border: none;
 }
 
+
+.credits {
+    float: right;
+    color: #7d5a5a;
+}
+
+.credits a {
+    text-decoration: underline;
+}
+
 /* shadow */
 .shadow {
   -moz-box-shadow:    0px 0px 5px 1px #ccc;
