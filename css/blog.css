@@ -97,14 +97,12 @@ a:hover {
 
 .post h1 {
     color: #aa0000;
-    margin-bottom: 2px;
-    text-align: center;
+    margin-bottom: 0px;
+    line-height: 1;
 }
 
 .post-date {
   margin-top: 0px;
   color: #aa0000;
-  text-align: center;
-
 }
 

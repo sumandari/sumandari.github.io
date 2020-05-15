@@ -46,7 +46,7 @@ title: showcase
             Customizing Django-Admin with django-leaflet and django-bootstrap4.
         </p>
         <p>
-            Tech: Python Django, PostgreGIS, leaflet, bootstrap
+            Tech: Python Django, PostgreGIS, LeafletJs, bootstrap
         </p>
         <p>
             <a href="https://github.com/sumandari/django-geoloc-leaflet">Read more..</a>
@@ -62,7 +62,7 @@ title: showcase
             Display map assets with multiple account
         </p>
         <p>
-            Tech: Python Flask, MongoDB, Leaflet
+            Tech: Python Flask, MongoDB, LeafletJs
         </p>
         <p>
             <a href="mailto:sumandari_ee@yahoo.com">Contact me for detail..</a>

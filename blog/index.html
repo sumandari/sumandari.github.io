@@ -5,7 +5,9 @@ title: read her thought
 <div class="space-2"></div>
 {% for post in site.posts limit:10 %}
     <div class="post-preview" onclick="location.href='{{ post.url }}'">
-        <h2>{{ post.title }}</h2>
+        <div class="post-title">
+            <h2>{{ post.title }}</h2>
+        </div>
         <div class="post-date">{{ post.date | date: "%B %d, %Y" }}</div>
        
         <p class="post-excerpt">
