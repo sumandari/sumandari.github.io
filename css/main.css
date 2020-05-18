@@ -103,64 +103,20 @@ a:hover {
 }
 
 .img-bottom {
-    top: 100%;
+    top: 40%;
     left: 50%;
     overflow: hidden;
-    opacity: 0;
-    animation-name: moveup;
-    animation-duration: 2s;
-    animation-fill-mode:forwards;
 }
 
 .img-bottom img {
     height: 200px;
+    border-bottom: 2px solid #e19999;
 }
 
 .cat-bottom {
-    top: 110%;
+    top: 200px;
     height: 150px;
     position: relative;
-    animation-name: movetobottom;
-    animation-duration: 3s;
-    animation-timing-function: linear;
-    animation-fill-mode:forwards;
-}
-
-.cat-bottom:hover {
-    animation-name: movehidding;
-    animation-duration: 1s;
-    animation-timing-function: linear;
-}
-
-@keyframes moveup {
-    0% { top: 100%; opacity: 0}
-    90% { top: 40%; opacity: 0}
-    100% { top: 40%; opacity: 1}
-}
-@-webkit-keyframes moveup {
-    0% { top: 100%; opacity: 0}
-    90% { top: 40%; opacity: 0}
-    100% { top: 40%; opacity: 1}
-}
-
-@keyframes movetobottom {
-    0% { top: 200px;}
-    20% { top: 200px;}
-    100% { top: 0px;}
-}
-@-webkit-keyframes movetobottom {
-    0% { top: 200px;}
-    20% { top: 200px;}
-    100% { top: 0px;}
-}
-
-@keyframes movehidding {
-    0% { top: 0px;}
-    100% { top: 200px;}
-}
-@-webkit-keyframes movehidding {
-    0% { top: 0px;}
-    100% { top: 200px;}
 }
 
 ul.posts { 
