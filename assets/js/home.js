@@ -31,7 +31,7 @@ catDown = (callback) => {
             let newTop = Math.floor(Math.random() * (pageHeight - catContainerHeight));
             catContainer.style.left = String(newLeft) + 'px';
             catContainer.style.top = String(newTop) + 'px';
-            setTimeout(callback, 3000); 
+            setTimeout(callback, 1000); 
         } else {
             pos++; 
             cat.style.top = pos + 'px'; 
