@@ -9,7 +9,7 @@ const catHeight = cat.clientHeight;
 
 catUp = () => {
     var pos = 200;
-    var id = setInterval(frame, 10);
+    var id = setInterval(frame, 3);
     function frame() {
         if (pos == 0) {
             clearInterval(id);
@@ -23,7 +23,7 @@ catUp = () => {
 
 catDown = (callback) => {
     var pos = 0;
-    var id = setInterval(frame, 0.5);
+    var id = setInterval(frame, 1);
     function frame() {
         if (pos == 200) {
             clearInterval(id);
@@ -31,7 +31,7 @@ catDown = (callback) => {
             let newTop = Math.floor(Math.random() * (pageHeight - catContainerHeight));
             catContainer.style.left = String(newLeft) + 'px';
             catContainer.style.top = String(newTop) + 'px';
-            setTimeout(callback, 2000); 
+            setTimeout(callback, 3000); 
         } else {
             pos++; 
             cat.style.top = pos + 'px'; 
