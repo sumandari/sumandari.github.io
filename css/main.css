@@ -97,24 +97,57 @@ a:hover {
   color: #333;
 }
 
-.home img {
-    width: 200px;
-    position:absolute;
-    left: 80%;
-    top: 50%;
-    transform: scaleX(-1);
-    -webkit-animation: run 15s 1;
-    -webkit-animation-direction: forwards;
 
-}     
-@-webkit-keyframes run {
-    0% { left: 80%; top: -10%; transform: scaleX(1); }
-    10% { left: 80%; top: 50%; transform: scaleX(1); }
-    45% { left: 0%; top: 50%; transform: scaleX(1);}
-    50% { left: -10%; top: 50%; transform: scaleX(1); }
-    52% { left: -10%; top: 50%; transform: scaleX(-1);}
-    60% { left: 0%; top: 50%; transform: scaleX(-1);}
-    100%{ left: 80%; top: 50%; transform: scaleX(-1);}
+.home-img {
+    position: absolute;
+}
+
+.img-bottom {
+    top: 100%;
+    left: 50%;
+    overflow: hidden;
+    opacity: 0;
+    animation: moveup 2s;
+    animation-fill-mode:forwards;
+}
+
+.img-bottom img {
+    height: 200px;
+}
+
+.cat-bottom {
+    top: 110%;
+    height: 150px;
+    position: relative;
+    animation: movetobottom 3s;
+    animation-timing-function: linear;
+    animation-fill-mode:forwards;
+    animation-delay: 1s;
+}
+
+.cat-bottom:hover {
+    animation: movehidding 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes moveup {
+    0% { top: 100%; opacity: 0}
+    90% { top: 40%; opacity: 0}
+    100% { top: 40%; opacity: 1}
+}
+
+@keyframes movetobottom {
+    0% { top: 100%;}
+    20% { top: 100%;}
+    100% { top: 0%;}
+}
+
+@keyframes movehidding {
+    0% { top: 0%;}
+    2% { top: 0%;}
+    30% { top: 100%;}
+    90% { top: 100%;}
+    100% { top: 100%;}
 }
 
 ul.posts { 
