@@ -87,3 +87,20 @@ title: showcase
         </p>
     </div>
 </div>
+
+## Electrical Software Dev 
+<div class="project-preview">
+    <div class="clearfix">
+        <img class="img-project" src="https://drive.google.com/uc?id=1jFYWPlI2LH87LXXmmmlzyGoE_GogFFpS" alt="ilustration pic"> 
+        <h3 class="title-project">Relay Protection 87T Model and Simulation</h3>
+        <p>
+            Back to 2011, this was project to get jump into electrical protection field. This app will calculate design model for Transformer Differential Relay Protection (87T) and do visualize relay performance test.
+        </p>
+        <p>
+            Tech: Delphi7
+        </p>
+        <p>
+            <a href="https://drive.google.com/open?id=13bpXj6Bz9VyQ3v3cU_ODWXauAhIH_Qdj">Download</a> or <a href="https://sumansetrum.blogspot.com">Read more..</a>
+        </p>
+    </div>
+</div>
