@@ -41,7 +41,7 @@ catDown = (callback) => {
 
 
 moveContainerCat = (callback) => {
-    let newLeft = Math.floor(Math.random() * (pageWidth - catContainerWidth));
+    let newLeft = Math.floor(Math.random() * (pageWidth - (2*catContainerWidth)));
     let newTop = Math.floor(Math.random() * (pageHeight - catContainerHeight));
     catContainer.style.left = String(newLeft) + 'px';
     catContainer.style.top = String(newTop) + 'px';
@@ -60,4 +60,6 @@ document.onreadystatechange = function () {
     }
 }
 
-cat.addEventListener("click", pounchCat, false)
+cat.addEventListener("click", pounchCat, false);
+cat.addEventListener("mouseover", pounchCat, false);
+

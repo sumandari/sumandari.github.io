@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ page.title }}</title>
+        <!-- link to main.css -->
+        <link href="/assets/css/syntax.css" rel="stylesheet" >
+        <link rel="stylesheet" type="text/css" href="/css/main.css">
+        <style type="text/css">
+            html {
+                cursor: url('/assets/img/fish.png'), auto; 
+            }
+            .shadow, .credits {
+                cursor: auto;
+            }
+            a {
+                cursor: pointer;
+            }
+        </style>
+        {% include analytics.html %}
+    </head>
+    <body>
+        {% include nav.html %}
+        <div class="container">
+            
+            {{ content }}
+
+        </div><!-- /.container -->
+        
+    </body>
+</html>
